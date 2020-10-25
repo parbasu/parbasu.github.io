@@ -62,11 +62,11 @@ $$17, 18, 18, 18, 19, 24, 25,30,$$
 
 $n=8$, which is even, so the median is 
 
-$\begin{align*}
+$\begin{align}
 &\frac{1}{2} \big(x_{\lfloor\frac{8+1}{2} \rfloor} + x_{\lceil \frac{8+1}{2} \rceil} \big) \\
 = &\frac{1}{2} \big(x_{\lfloor 4.5 \rfloor} + x_{\lceil 4.5 \rceil} \big) \\
 =& \frac{1}{2} \big(x_{4} + x_{5} \big)  = \frac{1}{2} (18 + 19) = 18.5. 
-\end{align*}$
+\end{align}$
 
 Here $\lfloor 4.5 \rfloor = 4$ as $4$ is the greatest integer less than or equal to $4.5$. $\lceil 4.5 \rceil = 5$ as $5$ is the smallest integer greater than or equal to $4.5$. 
 
