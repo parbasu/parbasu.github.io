@@ -4,4 +4,4 @@ My website only consists of this one single blog post written below. All of my o
 
 # Mean, Median and Mode
 
-MathJax: $$\int f(x) dx = 1$$
+$$\int f(x) dx = 1$$
