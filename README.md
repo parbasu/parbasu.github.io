@@ -176,7 +176,7 @@ $\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and median $m$.
 
 $E(X-c)^2$ called the **mean squared error** and $E\lvert X-c\rvert$ is called the **mean absolute error**.
 
-So what does this all mean? Briefly, if I want to guess what value my random variable is going to take, mean and median turn out to be accurate guesses depending on how I define accuracy. If accuracy is defined in terms of reducing the mean square error, then the mean is the best guess. If it is defined in terms of reducing the mean absolute error, then the median is the best guess.
+So what does this all mean? Briefly, if I want to guess what value my random variable is going to take, mean and median turn out to be accurate guesses depending on how you define accuracy. If accuracy is defined in terms of reducing the mean square error, then the mean is the best guess. If it is defined in terms of reducing the mean absolute error, then the median is the best guess.
 
 In elementary terms, this theorem is basically saying that given numerical values $x_1, \dots, x_n$, the value of $c$ that makes
 
