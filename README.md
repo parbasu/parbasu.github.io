@@ -1,4 +1,4 @@
-My website only consists of this one single blog post written below. All of my other write-ups and projects can be found on my GitHub profile. In the future I might expand this website to include those write-ups and projects, but as of now I think it's unnecessary work.
+My website consists only of this one single blog post written below. All of my other write-ups and projects can be found on my GitHub profile. In the future I might expand this website to include those write-ups and projects, but as of now I think it's unnecessary work.
 
 --- 
 
@@ -16,7 +16,7 @@ $$ \text{mean}(A) = \frac{1}{n} \sum_{i=1}^{n} x_i.$$
 
 Mean is a single numerical value that summarizes the data set. So if somebody comes up to me and asks me about the age of students in the statistics class, instead of telling them the age of every single student in the class, it is better to just tell them the average age, which is a single numerical value that summarizes the student age data set.
 
-Whenever we summarize any kind of information there is always going to be information loss. A summary of a movie will not contain the intricate plot details. Analogously, the mean age of students does not tell us how the age is distributed. If I tell you that the mean is $19.25$, can you tell me the age of every single student in the class? Of course not! More than one data set has the mean $19.25$
+Whenever we summarize any kind of information there is always going to be information loss. A summary of a movie will not contain the intricate plot details. Analogously, the mean age of students does not tell us how the age is distributed. If I tell you that the mean is $19.25$, can you tell me the age of every single student in the class? Of course not! Because more than one data set has the mean $19.25$
 
 $$ \frac{18 + 21 +  20 + 18}{4}  = 19.25 = \frac{19+20+19+19}{4}$$
 
@@ -24,7 +24,7 @@ But you may be able to give some estimate, because you are making some implicit 
 
 Another, perhaps less familiar, numerical summary measure is the *median*.
 
-Briefly, the median is the *middle* value of a data set. For example, if we have the following student age data set consisting of $7$ values ordered from smallest to greatest
+The median is the *middle* value of a data set. For example, if we have the following student age data set consisting of $7$ values ordered from smallest to greatest
 
 $$ 17, 18, 18, 18, 24, 25,30, $$
 
@@ -37,7 +37,7 @@ its median would be the average of the middle two, as there is no single middle 
 More formally, we have the following definition.
 
 
-$\textbf{Definition}$ Let $A$ be a data set consisting of numerical values $x_1,x_2, \dots, x_n$. We assume the following holds
+$\textbf{Definition}$ Let $A$ be a data set consisting of numerical values $x_1,x_2, \dots, x_n$. We assume the following hold
 
 $$x_{1} < x_{2} < \cdots < x_{n}.$$
 
@@ -54,7 +54,7 @@ The formal definition may seem a bit abstract so let's work through the above ex
 
 $$ 17, 18, 18, 18, 24, 25,30, $$
 
-$n=7$, which is odd, so the median $x_{\frac{7+1}{2}} = x_4 = 18$.
+$n=7$, which is odd, so the median is $x_{\frac{7+1}{2}} = x_4 = 18$.
 
 For 
 
@@ -78,11 +78,11 @@ both have the same median which is $18$. But one data set consists of a student 
 
 $$\frac{(17+18+30)}{3} \approx 21.6 \text{ and } \frac{(17+18+19)}{3} = 18$$
 
-Depending on our data set the median might give a better numerical summary than the mean. So if someone wants to get a rough idea about the age of students in a university statistics class, it is better to tell them the median age, instead of the mean age as it gets affected by the small number of old students or extremely young students.
+Depending on our data set and depending on what information we are interested in, the median might give a better numerical summary than the mean. So if someone wants to get a rough idea about the age of students in a university statistics class, it might be better to tell them the median age, instead of the mean age as it gets affected by the small number of old students or extremely young students.
 
  Finally, let's discuss the *mode*.  
  
- $\textbf{Definition}$ For a data set $A$ consisting of values $x_1, \dots, x_n$, the **mode** are the values that occur with the highest frequency in a data set.
+ $\textbf{Definition}$ For a data set $A$ consisting of values $x_1, \dots, x_n$, the **modes** are the values that occur with the highest frequency in a data set.
  
 So the mode of 
 
@@ -104,14 +104,14 @@ In the following section, I will not write detailed explanations as it is intend
 
 Sometimes when taking the mean we want to give more importance to certain values in the data set than others. For example, if students in a statistics class have to take two exams, one during the middle of the semester and a second final exam at the end, the instructor might want to assign twice as much importance to the final exam score when calculating the mean score. This means if a students scores $50$/$100$ on the first exam and $70$/$100$ on the second, their *weighted mean* score would be
 
-$$ \frac{50 + 70 \times 2}{3} \approx 63.3$$
+$$ \frac{50 + 70 \times 2}{3} \approx 63.3.$$
 
 
 $\textbf{Definition}$ Given a data set $A$ consisting of numerical values $x_1, \dots,x_n$ and given their corresponding weights $w_1, \dots, w_n$, the **weighted mean** is given by
 
 $$ \text{Mean}(A)_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}.$$
 
-The definition of mean of a random variable is inspired by the definition of weighted mean, with the weights given by probabilities.
+The definition of mean of a random variable is inspired by the definition of weighted mean, with the weights given by the probabilities.
 
 $\textbf{Definition}$ Let $X$ be a random variable with a finite number of distinct possible values $x_1, \dots, x_n$ occurring with probabilities $p_1 , \dots, p_n$, respectively. The **mean** (usually called **expected value**) of $X$ is given by 
 
@@ -121,7 +121,7 @@ For example, let $X$ be the result of rolling a fair six-sided die, so $X$ takes
 
 $$E[X] = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + \cdots + 6 \cdot \frac{1}{6} = 3.5. $$
 
-How should we interpret this value? This obviously is not the value we expect to observe, as $X$ never equals $3.5$. It is best to interpret this value as a long-term mean. That is, if we conduct an experiment where we roll the die $6000$ times we expect to see $1000$ ones, a $1000$ twos and so on, so the mean would be
+How should we interpret this value? This obviously is not the value we expect to observe, as $X$ never equals $3.5.$ It is best to interpret this value as a long-term mean. That is, if we conduct an experiment where we roll the die $6000$ times we expect to see $1000$ ones, a $1000$ twos and so on, so the mean would be
 
 $$\frac{(1000 \times 1) + \cdots + (1000 \times 6) }{6000} = 3.5$$
 
@@ -135,11 +135,13 @@ $\textbf{Definition}$ Let $X$ be a continuous random variable with probability d
 
 $$E[X] =  \int_{-\infty}^{\infty} xf(x)dx.$$
 
+(If the integral $\int_{-\infty}^{\infty} xf(x)dx$ is not absolutely convergent, then the expected value of $X$ does not exist).
+
 This definition is not exactly precise. We have not specified what type of integral we are talking about. We will ignore subtle issues regarding the differences between different types of integrals, namely Lebesgue and Riemann integrals. For our purposes they are the same. We can ignore pathological behaviour because the probability density function is assumed to be nice enough (bounded and continuous). So $E[X]$ is considered to be the following improper integral 
 
 $$ \lim_{ \ \ \  \ a,b \to \infty} \int_{a}^{b} x f(x) dx,$$
 
-where $\int_{a}^{b} x f(x) dx$ is be interpreted as a Riemann integral. Now let us try to understand the meaning of this definite integral.
+where $\int_{a}^{b} x f(x) dx$ is to be interpreted as a Riemann integral. Now let us try to understand the meaning of this definite integral.
 
 Recall by definition the Riemann integral is the following limit
 
@@ -149,9 +151,9 @@ where
 
 $$a = x_0 < x_1 < x_2 \cdots < x_n =b$$
 
-is a partition of $\[a,b\]$, $x_i^{\star}$ is any value in $\[x_{i-1},x_i \]$, and by $\|\|\Delta x \| \|\rightarrow 0$ we mean that the size of the intervals $\[x_{i-1},x_i \]$ shrinks to zero, so $n$ goes to infinity. Since $f$ is the probability density function, $f(x_i^{\star}) \,\Delta x_i$ is roughly the probability of the random variable $X$ taking a value inside the interval $\[x_{i-1},x_i \]$. So for small enough intervals this sum is again just the weighted mean, just like in the discrete case.
+is a partition of $\[a,b\]$, $ \ x_i^{\star}$ is any value in $\[x_{i-1},x_i \]$, and by $\|\|\Delta x \| \|\rightarrow 0$ we mean that the size of the intervals $\[x_{i-1},x_i \]$ shrinks to zero, so $n$ goes to infinity. Since $f$ is the probability density function, $ \ f(x_i^{\star})\Delta x_i$ is roughly the probability of the random variable $X$ taking a value inside the interval $\[x_{i-1},x_i \]$. So for small enough intervals this sum is again just the weighted mean, just like in the discrete case.
 
-All that remains to do is to go over the definition of median and mode of a random variable.
+All that remains to do is to go over the definitions of median and mode of a random variable.
 
 $\textbf{Definition}$ Let $X$ be a random variable. We say that $c$ is a **median** of $X$ if $P(X \geq c) \geq 0.5 \text{ and } P(X \leq c) \geq 0.5$.
 
@@ -159,14 +161,14 @@ For a continuous random variable, this is basically saying that $c$ is the value
 
 $\textbf{Definition}$ Let $X$ be random variable. If $X$ is discrete, we say that $c$ is a **mode** of $X$ if it maximizes the probability mass function, that is, $P(X=c) \geq P(X=x)$ for all $x$. If $X$ is continuous, we say that $c$ is a mode of $X$ if it maximizes the probability density function, that is, $f(c) \geq f(x)$ for all $x$.
 
-For a continuous random variable, this is basically saying the values in a small interval around $c$ have that the highest probability of occurring. For the discrete case, this is just the classical definition of the mode.
+For a continuous random variable, this is basically saying that the values in a small interval around $c$ have that the highest probability of occurring. For the discrete case, this is just the classical definition of the mode.
 
 
 **Bonus: Mean Squared Error and Mean Absolute Error**
 
-This section deserves an entirely seperate blog post, still I will mention the following very important results.
+This section deserves an entirely seperate blog post, still I want to mention the following very important results.
 
-$\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and meidan $m$.
+$\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and median $m$.
 
 - The value of $c$ that minimizes $E(X-c)^2$ is $c = \mu$.
 
@@ -174,16 +176,16 @@ $\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and meidan $m$.
 
 $E(X-c)^2$ called the **mean squared error** and $E\lvert X-c\rvert$ is called the **mean absolute error**.
 
-So what does this all mean? Briefly, if I want to guess what value my random variable is going to take, mean and median turn out be accurate guesses depending on how I define accuracy. If accuracy is defined in terms of reducing the mean square error, then the mean is the best guess. If it is defined in terms of reducing the mean absolute error, then the median is the best guess.
+So what does this all mean? Briefly, if I want to guess what value my random variable is going to take, mean and median turn out to be accurate guesses depending on how I define accuracy. If accuracy is defined in terms of reducing the mean square error, then the mean is the best guess. If it is defined in terms of reducing the mean absolute error, then the median is the best guess.
 
-In elementary terms, this theorem is basically saying that for given numerical values $x_1, \dots, x_n$, the value of $c$ that makes
+In elementary terms, this theorem is basically saying that given numerical values $x_1, \dots, x_n$, the value of $c$ that makes
 
  $$\sum_{i=1}^{n} (x_i -c)^2$$
 
-as small as possible (minimizes) is the mean. On the other hand, the value of $c$ that makes
+as small as possible (minimizes) is the mean of $x_1, \dots, x_n.$  On the other hand, the value of $c$ that makes
 
 $$\sum_{i=1}^{n} \lvert x_i - c \rvert$$
 
-as small as possible is the median.
+as small as possible is the median of $x_1, \dots, x_n.$
 
-That's it! Thanks for reading.
+That is it! Thanks for reading.
