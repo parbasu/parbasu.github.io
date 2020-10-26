@@ -41,7 +41,7 @@ $\textbf{Definition}$ Let $A$ be a data set consisting of numerical values $x_1,
 
 $$x_{1} < x_{2} < \cdots < x_{n}.$$
 
-If not, we can always rearrange the values so the above relations hold. The **mode** of $A$ is then given by 
+If not, we can always rearrange the values so the above relations hold. The **median** of $A$ is then given by 
 
 - $\text{median}(A) = x_{\frac{n+1}{2}}$, if $n$ is odd. 
 
