@@ -150,3 +150,40 @@ where
 $$a = x_0 < x_1 < x_2 \cdots < x_n =b$$
 
 is a partition of $\[a,b\]$, $x_i^{\star}$ is any value in $\[x_{i-1},x_i \]$, and by $\|\|\Delta x \| \|\rightarrow 0$ we mean that the size of the intervals $\[x_{i-1},x_i \]$ shrinks to zero, so $n$ goes to infinity. Since $f$ is the probability density function, $f(x_i^{\star}) \,\Delta x_i$ is roughly the probability of the random variable $X$ taking a value inside the interval $\[x_{i-1},x_i \]$. So for small enough intervals this sum is again just the weighted mean, just like in the discrete case.
+
+All that remains to do is to go over the definition of median and mode of a random variable.
+
+$\textbf{Definition}$ Let $X$ be a random variable. We say that $c$ is a **median** of $X$ if $P(X \geq c) \geq 0.5 \text{ and } P(X \leq c) \geq 0.5$.
+
+For a continuous random variable, this is basically saying that $c$ is the value such that half the mass of the distribution falls on either side of $c$. For the discrete case, this is just the classical definition of the median.
+
+$\textbf{Definition}$ Let $X$ be a discrete random variable. We say that $c$ is a **mode** of $X$ if it maximizes the probability mass function, that is, $P(X=c) \geq P(X=x)$ for all $x$. In the case of a continuous random variable $X$, we say that $c$ is a mode of $X$ if it maximizes the probability density function, that is, $f(c) \geq f(x)$ for all $x$.
+
+For a continuous random variable, this is basically saying the values in a small interval around $c$ have that the highest probability of occurring. For the discrete case, this is just the classical definition of the mode.
+
+
+**Bonus: Mean Squared Error and Mean Absolute Error**
+
+This section deserves an entirely seperate blog post, still I will mention the following very important results.
+
+$\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and meidan $m$.
+
+- The value of $c$ that minimizes $E(X-c)^2$ is $c = \mu$.
+
+- The value of $c$ that minimizes $E\lvert X-c\rvert$ is $c = m$.
+
+$E(X-c)^2$ called the **mean squared error** and $E\lvert X-c\rvert$ is called the **mean absolute error**.
+
+So what does this all mean? Briefly, if I want to guess what value my random variable is going to take, mean and median turn out be accurate guesses depending on how I define accuracy. If accuracy is defined in terms of reducing the mean square error, then the mean is the best guess. If it is defined in terms of reducing the mean absolute error, then the median is the best guess.
+
+In elementary terms, this theorem is basically saying that for given numerical values $x_1, \dots, x_n$, the value of $c$ that makes
+
+ $$\sum_{i=1}^{n} (x_i -c)^2$$
+
+as small as possible (minimizes) is the mean. On the other hand, the value of $c$ that makes
+
+$$\sum_{i=1}^{n} \lvert x_i - c \rvert$$
+
+as small as possible is the median.
+
+That's it! Thanks for reading.
