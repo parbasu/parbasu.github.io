@@ -98,7 +98,7 @@ The mode is also a useful numerical summary measure. If the mode age of students
 
 This ends the discussion of the classical notion of mean, median and mode. 
 
-In the following section, I will not write detailed explanations as it is intended for people who already have some familiarity with the notion of a random variable, an incredibly useful concept that lies at the core of the modern probability and statistics.
+In the following section, I will not write detailed explanations as it is intended for people who already have some familiarity with the notion of a random variable, an incredibly useful concept that lies at the core of modern probability and statistics.
 
 **Mean, Median and Mode of Random Variables** 
 
