@@ -128,3 +128,13 @@ It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of
 ![](expected_value_trials.png)
 
 Let us now turn our attention towards continuous random variables.
+
+$\textbf{Definition}$ Let $X$ be a continuous random variable with probability density function $f$, then its **mean** (usually called **expected value**) is given by
+
+$$E[X] =  \int_{-\infty}^{\infty} xf(x)dx.$$
+
+This definition is not exactly precise. We have not specified what type of integral we are talking about. We will ignore subtle issues regarding the differences between different types of integrals, namely Lebesgue and Riemann integrals. For our purposes they are the same. We can ignore pathological behaviour because the probability density function is assumed to be nice enough (bounded and continuous). So $E[X]$ is considered to be the following improper integral 
+
+$$ \lim_{ \ \ \  \ a,b \to \infty} \int_{a}^{b} x f(x) dx,$$
+
+where $\int_{a}^{b} x f(x) dx$ is be interpreted as a Riemann integral. Now let us try to understand the meaning of this definite integral.
