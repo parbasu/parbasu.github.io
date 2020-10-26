@@ -16,7 +16,7 @@ $$ \text{mean}(A) = \frac{1}{n} \sum_{i=1}^{n} x_i.$$
 
 Mean is a single numerical value that summarizes the data set. So if somebody comes up to me and asks me about the age of students in the statistics class, instead of telling them the age of every single student in the class, it is better to just tell them the average age, which is a single numerical value that summarizes the student age data set.
 
-Whenever we summarize any kind of information there is always going to be information loss. A summary of a movie will not contain the intricate plot details. Analogously, the mean age of students does not tell us how the age is distributed. If I tell you that the mean is $19.25$, can you tell me the age of every single student in the class? Of course not! More than $1$ data set has the mean $19.25$
+Whenever we summarize any kind of information there is always going to be information loss. A summary of a movie will not contain the intricate plot details. Analogously, the mean age of students does not tell us how the age is distributed. If I tell you that the mean is $19.25$, can you tell me the age of every single student in the class? Of course not! More than one data set has the mean $19.25$
 
 $$ \frac{18 + 21 +  20 + 18}{4}  = 19.25 = \frac{19+20+19+19}{4}$$
 
@@ -96,7 +96,7 @@ Does the first data set have two modes 18 and 19? And does the second have four 
 
 The mode is also a useful numerical summary measure. If the mode age of students in a university statistics class is $18$ or $19$ or both, it tells us that this probably is a class taken by undergraduates in their first year. 
 
-What about mean, median and mode of continuous data sets? Often we approximate a discrete data set by a continous one. For example, instead of talking about the age of universtiy students in terms of discrete values $18,19, \dots, 25$, we often make the assumption that it can take any real value between 18 and 25. To make sense of all this, it is better to first reframe this discussion in terms of random variables. In the following section, I will not write detailed explanations as it is intended for people who already have some familiarity with these notions.
+What about mean, median and mode of continuous data sets? Often we approximate a discrete data set by a continous one. For example, instead of talking about the age of universtiy students in terms of discrete values $18,19, \dots, 25$, we often make the assumption that it can take any real value between $18$ and $25$. To make sense of all this, it is better to first reframe this discussion in terms of random variables. In the following section, I will not write detailed explanations as it is intended for people who already have some familiarity with these notions.
 
 **Mean, Median and Mode of Random Variables** 
 
