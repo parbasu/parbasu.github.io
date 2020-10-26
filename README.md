@@ -100,7 +100,7 @@ What about mean, median and mode of continuous data sets? Often we approximate a
 
 **Mean, Median and Mode of Random Variables** 
 
-Sometimes when taking the mean we want to give more importance to certain values in the data set than others. For example, if students in a statistics class have to take two exams, one during the middle of the semester and a second final exam at the end, the instructor might want to assign twice as much importance to the final exam score when calculating the mean score. This means if a students scores 50/100 on the first exam and 70/100 on the second, their *weighted mean* score would be
+Sometimes when taking the mean we want to give more importance to certain values in the data set than others. For example, if students in a statistics class have to take two exams, one during the middle of the semester and a second final exam at the end, the instructor might want to assign twice as much importance to the final exam score when calculating the mean score. This means if a students scores $50$/$100$ on the first exam and $70$/$100$ on the second, their *weighted mean* score would be
 
 $$ \frac{50 + 70 \times 2}{3} \approx 63.3$$
 
