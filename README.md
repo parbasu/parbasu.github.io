@@ -157,7 +157,7 @@ $\textbf{Definition}$ Let $X$ be a random variable. We say that $c$ is a **media
 
 For a continuous random variable, this is basically saying that $c$ is the value such that half the mass of the distribution falls on either side of $c$. For the discrete case, this is just the classical definition of the median.
 
-$\textbf{Definition}$ Let $X$ be a discrete random variable. We say that $c$ is a **mode** of $X$ if it maximizes the probability mass function, that is, $P(X=c) \geq P(X=x)$ for all $x$. In the case of a continuous random variable $X$, we say that $c$ is a mode of $X$ if it maximizes the probability density function, that is, $f(c) \geq f(x)$ for all $x$.
+$\textbf{Definition}$ Let $X$ be random variable. If $X$ is discrete, we say that $c$ is a **mode** of $X$ if it maximizes the probability mass function, that is, $P(X=c) \geq P(X=x)$ for all $x$. If $X$ is continuous, we say that $c$ is a mode of $X$ if it maximizes the probability density function, that is, $f(c) \geq f(x)$ for all $x$.
 
 For a continuous random variable, this is basically saying the values in a small interval around $c$ have that the highest probability of occurring. For the discrete case, this is just the classical definition of the mode.
 
