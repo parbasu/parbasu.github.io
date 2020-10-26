@@ -127,3 +127,4 @@ It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of
 
 ![](expected_value_trials.png)
 
+Let us now turn our attention towards continuous random variables.
