@@ -98,7 +98,7 @@ The mode is also a useful numerical summary measure. If the mode age of students
 
 What about mean, median and mode of continuous data sets? Often we approximate a discrete data set by a continous one. For example, instead of talking about the age of universtiy students in terms of discrete values $18,19, \dots, 25$, we often make the assumption that it can any real value between 18 and 25. To make sense of all this, it is better to first reframe this discussion in terms of random variables. In the following section, I will not write detailed explanations as it is intended for people who already have some familiarity with these notions.
 
-**Mean, Media and Mode of Random Variables** 
+**Mean, Median and Mode of Random Variables** 
 
 
 
