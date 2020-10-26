@@ -127,7 +127,7 @@ $$\frac{(1000 \times 1) + \cdots + (1000 \times 6) }{6000} = 3.5$$
 
 It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of each value, but the longer we run the experiment, the closer the experimental mean will get to $3.5$, as illustrated in the plot below. This mathematical fact is known as the [strong law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers#Strong_law), which I will not discuss here.
 
-![](expected_value_trials.png)
+![](expected_value_trials.png=100x20)
 
 Let us now turn our attention towards continuous random variables.
 
