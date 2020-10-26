@@ -100,5 +100,30 @@ What about mean, median and mode of continuous data sets? Often we approximate a
 
 **Mean, Median and Mode of Random Variables** 
 
+Sometimes when taking the mean we want to give more importance to certain values in the data set than others. For example, if students in a statistics class have to take two exams, one during the middle of the semester and a second final exam at the end, the instructor might want to assign twice as much importance to the final exam score when calculating the mean score. This means if a students scores 50/100 on the first exam and 70/100 on the second, their *weighted mean* score would be
 
+$$ \frac{50 + 70 \times 2}{3} \approx 63.3$$
+
+
+$\textbf{Definition}$ Given a data set $A$ consisting of numerical values $x_1, \dots,x_n$ and given their corresponding weights $w_1, \dots, w_n$, the **weighted mean** is given by
+
+$$ \text{Mean}(A)_w = \frac{\sum_{i=1}^{n} w_i x_i}{\sum_{i=1}^{n} w_i}.$$
+
+The definition of mean of a random variable is inspired by the definition of weighted mean, with the weights given by probabilities.
+
+$\textbf{Definition}$ Let $X$ be a random variable with a finite number of distinct possible values $x_1, \dots, x_n$ occurring with probabilities $p_1 , \dots, p_n$, respectively. The **mean** (usually called **expected value**) of $X$ is given by 
+
+$$E[X] = \sum_{i=1}^{n} x_i p_i.$$
+
+For example, let $X$ be the result of rolling a fair six-sided die, so $X$ takes on the values $1,2,3,4,5,$ and $6$, with equal probability $\frac{1}{6}$. The mean of $X$ is 
+
+$$E[X] = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + \cdots + 6 \cdot \frac{1}{6} = 3.5. $$
+
+How should we interpret this value? This obviously is not the value we expect to observe, as $X$ never equals $3.5$. It is best to interpret this value as a long-term mean. That is, if we conduct an experiment where we roll the die $6000$ times we expect to see $1000$ ones, a $1000$ twos and so on, so the mean would be
+
+$$\frac{(1000 \times 1) + \cdots + (1000 \times 6) }{6000} = 3.5$$
+
+It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of each value, but the longer we run the experiment, the closer the experimental mean will get to $3.5$. This mathematical fact is known as the [strong law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers#Strong_law), which I will not discuss here.
+
+![](expected_value_trials.png)
 
