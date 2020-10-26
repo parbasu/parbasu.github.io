@@ -37,11 +37,11 @@ its median would be the average of the middle two, as there is no single middle 
 More formally, we have the following definition.
 
 
-$\textbf{Definition}$ Let $A$ be a data set consisting of numerical values $x_1,x_2, \dots, x_n$. We assume the following hold
+$\textbf{Definition}$ Let $A$ be a data set consisting of numerical values $x_1,x_2, \dots, x_n$. We assume the following holds
 
 $$x_{1} < x_{2} < \cdots < x_{n}.$$
 
-If not, we can always rearrange the values so the above relations holds. The **mode** of $A$ is then given by 
+If not, we can always rearrange the values so the above relations hold. The **mode** of $A$ is then given by 
 
 - $\text{median}(A) = x_{\frac{n+1}{2}}$, if $n$ is odd. 
 
