@@ -12,7 +12,7 @@ More formally, we have the following definition.
 
 $\textbf{Definition}$ For a data set $A$ consisting of numerical values $x_1, x_2, \dots, x_n$, the **mean** or **average** of $A$ is given by
 
-$$ \text{mean}(A) = \frac{1}{n} \sum_{i=1}^{n} x_i.$$
+$$ \text{mean}(A) = \frac{1}{n} \sum_{i=1}^{n} x_i = \frac{x_1 + \cdots + x_n}{n} $$
 
 Mean is a single numerical value that summarizes the data set. So if somebody comes up to me and asks me about the age of students in the statistics class, instead of telling them the age of every single student in the class, it is better to just tell them the average age, which is a single numerical value that summarizes the student age data set.
 
