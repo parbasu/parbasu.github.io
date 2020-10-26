@@ -76,7 +76,7 @@ $$17, 18 , 30  \text{ and } 17, 18, 19,$$
 
 both have the same median which is $18$. But one data set consists of a student whose age is $30$, which lies outside the usual $18-25$ age range for university students. Such a value is called an *outlier*. An outlier is simply a value that lies outside the normal range of values. The median is not affected by outliers as just explained. This is not true for the mean: 
 
-$$\frac{(17+18+30)}{3} \approx 21.6 \text{ and } \frac{(17+18+19)}{3} = 18$$
+$$\frac{(17+18+30)}{3} \approx 21.6 \text{ and } \frac{(17+18+19)}{3} = 18.$$
 
 Depending on our data set and depending on what information we are interested in, the median might give a better numerical summary than the mean. So if someone wants to get a rough idea about the age of students in a university statistics class, it might be better to tell them the median age, instead of the mean age as it gets affected by the small number of old students or extremely young students.
 
