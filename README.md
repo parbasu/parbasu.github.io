@@ -164,7 +164,7 @@ $\textbf{Definition}$ Let $X$ be random variable. If $X$ is discrete, we say tha
 For a continuous random variable, this is basically saying that the values in a small interval around $c$ have that the highest probability of occurring. For the discrete case, this is just the classical definition of the mode.
 
 
-**Bonus: Mean Squared Error and Mean Absolute Error**
+**Bonus topic: Mean Squared Error and Mean Absolute Error**
 
 This section deserves an entirely separate blog post, still I want to mention the following very important results.
 
