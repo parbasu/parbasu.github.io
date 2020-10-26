@@ -145,7 +145,7 @@ where $\int_{a}^{b} x f(x) dx$ is to be interpreted as a Riemann integral. Now l
 
 Recall by definition the Riemann integral is the following limit
 
-$$ \int_{a}^{b} x f(x) dx = \lim_{ \|\Delta x\|\rightarrow 0} \sum_{i=1}^{n} x_i^{\star} f(x_i^{\star}) \,\Delta x_i,$$
+$$ \int_{a}^{b} x f(x) dx = \lim_{ \|\Delta x\|\rightarrow 0} \sum_{i=1}^{n} x_i^{\star} f(x_i^{\star}) \Delta x_i,$$
 
 where 
 
@@ -166,7 +166,7 @@ For a continuous random variable, this is basically saying that the values in a 
 
 **Bonus: Mean Squared Error and Mean Absolute Error**
 
-This section deserves an entirely seperate blog post, still I want to mention the following very important results.
+This section deserves an entirely separate blog post, still I want to mention the following very important results.
 
 $\textbf{Theorem}$ Let $X$ be a random variable with mean $\mu$ and median $m$.
 
