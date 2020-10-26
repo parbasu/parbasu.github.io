@@ -119,11 +119,11 @@ For example, let $X$ be the result of rolling a fair six-sided die, so $X$ takes
 
 $$E[X] = 1 \cdot \frac{1}{6} + 2 \cdot \frac{1}{6} + \cdots + 6 \cdot \frac{1}{6} = 3.5. $$
 
-How should we interpret this value? This obviously is not the value we expect to observe, as $X$ never equals $3.5$, as illustrated in the plot below. It is best to interpret this value as a long-term mean. That is, if we conduct an experiment where we roll the die $6000$ times we expect to see $1000$ ones, a $1000$ twos and so on, so the mean would be
+How should we interpret this value? This obviously is not the value we expect to observe, as $X$ never equals $3.5$. It is best to interpret this value as a long-term mean. That is, if we conduct an experiment where we roll the die $6000$ times we expect to see $1000$ ones, a $1000$ twos and so on, so the mean would be
 
 $$\frac{(1000 \times 1) + \cdots + (1000 \times 6) }{6000} = 3.5$$
 
-It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of each value, but the longer we run the experiment, the closer the experimental mean will get to $3.5$. This mathematical fact is known as the [strong law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers#Strong_law), which I will not discuss here.
+It is unlikely that in our experiment of die rolls, we observe exactly $1000$ of each value, but the longer we run the experiment, the closer the experimental mean will get to $3.5$, as illustrated in the plot below. This mathematical fact is known as the [strong law of large numbers](https://en.wikipedia.org/wiki/Law_of_large_numbers#Strong_law), which I will not discuss here.
 
 ![](expected_value_trials.png)
 
