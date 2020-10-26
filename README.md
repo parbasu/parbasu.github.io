@@ -141,7 +141,7 @@ where $\int_{a}^{b} x f(x) dx$ is be interpreted as a Riemann integral. Now let 
 
 Recall by definition the Riemann integral is the following limit
 
-$$ \int_{a}^{b} x f(x) dx = \lim_{ \|\Delta x\|\rightarrow 0} \sum_{i=1}^{n} x_i^* f(x_i^*) \,\Delta x_i,$$
+$$ \int_{a}^{b} x f(x) dx = \lim_{ \|\Delta x\|\rightarrow 0} \sum_{i=1}^{n} x_i^{\star} f(x_i^{\star}) \,\Delta x_i,$$
 
 where 
 
