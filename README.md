@@ -189,3 +189,11 @@ $$\sum_{i=1}^{n} \lvert x_i - c \rvert$$
 as small as possible is the median of $x_1, \dots, x_n.$
 
 That is it! Thanks for reading.
+
+**References**
+
+Both of the following material are available online. Just google it. I don't want to post links, because they eventually go dead.
+
+1. Hartmann, K., Krois, J., Waske, B. (2018): E-Learning Project SOGA: Statistics and Geospatial Data Analysis. Department of Earth Sciences, Freie Universitaet Berlin.
+
+2. Blitzstein, J. K., & Hwang, J. (2019). Introduction to probability. Crc Press.
