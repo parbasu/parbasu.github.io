@@ -147,4 +147,4 @@ where
 
 $$a = x_0 < x_1 < x_2 \cdots < x_n =b$$
 
-is a partition of $\[a,b\]$, $x_i^{*}$ is any value in $ \[x_{i-1},x_i\]$, and by $\|\Delta x\|\rightarrow 0$ we mean that the size of the intervals $\[x_{i-1},x_i \]$ shrinks to zero, so $n$ goes to infinity. Since $f$ is the probability density function, $f(x_i^*) \,\Delta x_i$ is roughly the probability of the random variable $X$ taking a value inside the interval $\[x_{i-1},x_i \]$. So for small enough intervals this sum is just the weighted mean, just like in the discrete case.
+is a partition of $\[a,b\]$, $x_i^*$ is any value in $\[ x_{i-1},x_i \]$, and by $\|\Delta x\|\rightarrow 0$ we mean that the size of the intervals $\[x_{i-1},x_i \]$ shrinks to zero, so $n$ goes to infinity. Since $f$ is the probability density function, $f(x_i^*) \,\Delta x_i$ is roughly the probability of the random variable $X$ taking a value inside the interval $\[x_{i-1},x_i \]$. So for small enough intervals this sum is just the weighted mean, just like in the discrete case.
