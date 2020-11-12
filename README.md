@@ -6,7 +6,7 @@ My website consists only of this one single blog post written below. All of my o
 
 Most of us are familiar with the term *average*. So if I tell you that the average age of students in a statistics class at university is $19.25$ years, you know that
 
-$$19.25 = \frac{\text{sum of the ages of all students who are in the class}}{\text{number of students in the class}}$$
+$$19.25 = \frac{\text{sum of the ages of all students who are in the class}}{\text{number of students in the class}}.$$
 
 More formally, we have the following definition. 
 
