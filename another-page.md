@@ -1,4 +1,3 @@
 
 
-## Welcome to another page
-
+## Welcome to a dummy page
