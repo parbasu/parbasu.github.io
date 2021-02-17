@@ -1,6 +1,6 @@
 
 
-## Welcome to a dummy page
+## This is just a dummy page for code ouput
 
 [back](./)
 
