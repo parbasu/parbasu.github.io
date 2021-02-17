@@ -4,7 +4,7 @@
 
 [back](./)
 
-<iframe src="/assets/img/les_mis.html"
+<iframe src="/assets/img/anscombe.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
     height="500"
