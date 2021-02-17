@@ -4,6 +4,8 @@
 
 [back](./)
 
+The following is taken from the bookeh documentation:
+
 <iframe src="/assets/img/anscombe.html"
     sandbox="allow-same-origin allow-scripts"
     width="100%"
