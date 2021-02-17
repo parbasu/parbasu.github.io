@@ -4,7 +4,12 @@
 
 [back](./)
 
-The following is taken from the bookeh documentation:
+The following interactive visualization is taken from bokeh and deployed via heroku:
+
+<iframe height="800" width="800" src="https://testingbasu.herokuapp.com/testing"></iframe>
+
+
+The following is also taken from the bokeh documentation:
 
 <iframe src="/assets/img/anscombe.html"
     sandbox="allow-same-origin allow-scripts"
