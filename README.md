@@ -3,8 +3,8 @@ Check out the COVID-19 Dashboard I built. I used [Plotly Dash](https://plotly.co
 The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
 
 [COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
-
 [How was this dashboard created?](covid19app.html)
+
 --- 
 
 # Mean, Median and Mode
