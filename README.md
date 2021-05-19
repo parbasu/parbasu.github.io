@@ -1,6 +1,8 @@
-My website consists only of this one single blog post written below. All of my other write-ups and projects can be found on my GitHub profile. In the future I might expand this website to include those write-ups and projects, but as of now I think it is unnecessary work. 
+Check out the COVID-19 Dashboard I built. I used [Plotly Dash](https://plotly.com/dash/). The app was mostly written in Python and also a little bit of JavaScript and CSS to get the exact functionality I wanted. This is because Plotly (understandably) offers limited  customisability and there are some features that are simply not available, so I had to create my own. I'll post my code here soon.
 
-[Link to a dummy page](./another-page.html)
+The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
+
+[COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
 
 --- 
 
