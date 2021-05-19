@@ -4,7 +4,7 @@ The app has slow initial loading times because of this [reason](https://stackove
 
 [COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
 
-[How was this dashboard created?]()
+[How was this dashboard created?](/covid19app.html)
 
 --- 
 
