@@ -40,7 +40,7 @@ I used Plotly Dash. Here is a summary of what I did:
   - RKI COVID19 
   
 
-- [Landesamt für Gesundheit und Soziales (LaGeSo) Berlin](https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/)
+- [Landesamt für Gesundheit und Soziales (LaGeSo) Berlin] (https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/) and other state offices.
   
 - [GeoHealth Center Bonn](https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar)
 
