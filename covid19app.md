@@ -34,8 +34,7 @@ I used Plotly Dash. Here is a summary of what I did:
 
 ### Official sources
 
-- COVID-19 Datenhub
-  https://npgeo-corona-npgeo-de.hub.arcgis.com/
+- [COVID-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/)
   
   - RKI Corona Bundesländer
   - RKI Corona Landkreise
@@ -46,19 +45,13 @@ I used Plotly Dash. Here is a summary of what I did:
   
 
   
-- Landesamt für Gesundheit und Soziales (LaGeSo) Berlin
-  https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/
+- [Landesamt für Gesundheit und Soziales (LaGeSo) Berlin](https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/)
   
-### GeoHealth Center Bonn
-
-- https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar
+### [GeoHealth Center Bonn](https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar)
 
 ### Crowdsourcing
 
-
-### Risklayer
-
-- http://www.risklayer-explorer.com/event/100/detail
+### [Risklayer](http://www.risklayer-explorer.com/event/100/detail)
  - Google Sheets
  
 
