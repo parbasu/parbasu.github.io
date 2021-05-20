@@ -44,7 +44,7 @@ I used Plotly Dash. Here is a summary of what I did:
   
 - [GeoHealth Center Bonn](https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar)
 
-- Crowdsourced data: [Risklayer](http://www.risklayer-explorer.com/event/100/detail). Available in the form Google Sheets.
+- Crowdsourced data: [Risklayer](http://www.risklayer-explorer.com/event/100/detail). Available in the form of Google Sheets.
  
 
  
