@@ -1,10 +1,9 @@
-Check out the COVID-19 Dashboard I built. I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-leaflet.herokuapp.com/). The app was mostly written in Python. I also used a bit of JavaScript and CSS to get the exact look and functionality I wanted. This is because Plotly (understandably) offers limited  customisability and there are some features that are simply not available, so I had to create my own.
+Check out the COVID-19 Dashboard I built. I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-leaflet.herokuapp.com/). The app was mostly written in Python. I also used a bit of JavaScript and CSS to get the exact look and functionality I wanted. This is because Plotly (understandably) offers limited  customisability and there are some features that are simply not available, so I had to create my own. For more details see this [page](covid19app.md).
 
 The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
 
 [COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
 
-[How was this dashboard created?](covid19app.md)
 
 --- 
 
