@@ -18,7 +18,7 @@ There are several newspapers in Germany that are publishing COVID-19 data for Ge
   
 Of all the COVID-19 dashboards out there in the world, I found Die Zeit's dashboard the most visually appealing. And I wanted to recreate that. They built their dashboard using [Datawrapper](https://www.datawrapper.de/). 
 
-I used Plotly Dash. Here is a summary of what I did:
+I used Plotly Dash and Dash Leaflet. Here is a summary of what I did:
 
 [To be continued]
 
