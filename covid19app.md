@@ -30,7 +30,7 @@ I used Plotly Dash. Here is a summary of what I did:
 
 ## Important sources of COVID-19 data for Germany
 
-- [COVID-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/) which contains the following data:
+- [COVID-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/) which contains the following important data files:
   
   - RKI Corona Bundesländer
   - RKI Corona Landkreise
