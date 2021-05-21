@@ -1,6 +1,6 @@
 ## COVID-19 Dashboard
 
-The [dashboard](https://covid19basu.herokuapp.com/) is hosted for free on Heroku. You may experience slow initial loading times. It is best viewed on a desktop using Google Chrome. You may notice that it is not adjusted for browser resizing.
+The [dashboard](https://covid19basu.herokuapp.com/) is hosted for free on Heroku. You may experience slow initial loading times because of [this](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load). It is best viewed on a desktop using Google Chrome. You may notice that it is not adjusted for browser resizing.
 
 There are several newspapers in Germany that are publishing COVID-19 data for Germany on their website, but this data is mostly taken from official sources like Robert Koch Institute (RKI), so it is not as up to date and undercounts the number of cases. Here is a non-exhaustive list of newspapers that are relying on other sources in addition to RKI:
 
