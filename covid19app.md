@@ -26,17 +26,11 @@ I used Plotly Dash. Here is a summary of what I did:
 
 
 
-
-
-
 ## Important sources of COVID-19 data for Germany:
-
-
 
 ### Official sources
 
-- COVID-19 Datenhub
-  https://npgeo-corona-npgeo-de.hub.arcgis.com/
+- [COVID-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/). It contains the following important data files:
   
   - RKI Corona Bundesländer
   - RKI Corona Landkreise
@@ -45,22 +39,8 @@ I used Plotly Dash. Here is a summary of what I did:
   - RKI Altersgruppen
   - RKI COVID19 
   
-
+- [Landesamt für Gesundheit und Soziales (LaGeSo) Berlin](https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/) and other state offices.
   
-- Landesamt für Gesundheit und Soziales (LaGeSo) Berlin
-  https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/
-  
-### GeoHealth Center Bonn
+- [GeoHealth Center Bonn](https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar)
 
-- https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar
-
-### Crowdsourcing
-
-
-### Risklayer
-
-- http://www.risklayer-explorer.com/event/100/detail
- - Google Sheets
- 
-
- 
+- Crowdsourced data: [Risklayer](http://www.risklayer-explorer.com/event/100/detail). The data is available in the form of Google Sheets.
