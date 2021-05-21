@@ -1,5 +1,6 @@
 ## COVID-19 Dashboard
 
+The [dashboard](https://covid19basu.herokuapp.com/) is hosted for free on Heroku. You may experience slow initial loading times.
 
 There are several newspapers in Germany that are publishing COVID-19 data for Germany on their website, but this data is mostly taken from official sources like Robert Koch Institute (RKI), so it is not as up to date and undercounts the number of cases. Here is a non-exhaustive list of newspapers that are relying on other sources in addition to RKI:
 
@@ -18,7 +19,7 @@ There are several newspapers in Germany that are publishing COVID-19 data for Ge
   
 Of all the COVID-19 dashboards out there in the world, I found Die Zeit's dashboard the most visually appealing. And I wanted to recreate that. They built their dashboard using [Datawrapper](https://www.datawrapper.de/). 
 
-I used Plotly Dash and Dash Leaflet. Here is a summary of what I did:
+I used Plotly Dash. Here is a summary of what I did:
 
 [To be continued]
 
@@ -28,9 +29,14 @@ I used Plotly Dash and Dash Leaflet. Here is a summary of what I did:
 
 
 
-## Important sources of COVID-19 data for Germany
+## Important sources of COVID-19 data for Germany:
 
-- [COVID-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/) which contains the following important data files:
+
+
+### Official sources
+
+- COVID-19 Datenhub
+  https://npgeo-corona-npgeo-de.hub.arcgis.com/
   
   - RKI Corona Bundesländer
   - RKI Corona Landkreise
@@ -40,11 +46,21 @@ I used Plotly Dash and Dash Leaflet. Here is a summary of what I did:
   - RKI COVID19 
   
 
-- [Landesamt für Gesundheit und Soziales (LaGeSo) Berlin](https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/) and other state offices.
   
-- [GeoHealth Center Bonn](https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar)
+- Landesamt für Gesundheit und Soziales (LaGeSo) Berlin
+  https://www.berlin.de/lageso/gesundheit/infektionsepidemiologie-infektionsschutz/corona/
+  
+### GeoHealth Center Bonn
 
-- Crowdsourced data: [Risklayer](http://www.risklayer-explorer.com/event/100/detail). Available in the form of Google Sheets.
+- https://www.uni-bonn.de/neues/daten-zum-coronavirus-fuer-laien-und-wissenschaftler-verfuegbar
+
+### Crowdsourcing
+
+
+### Risklayer
+
+- http://www.risklayer-explorer.com/event/100/detail
+ - Google Sheets
  
 
  
