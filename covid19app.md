@@ -37,6 +37,8 @@ Things I want to add but won't in the near future:
 
 - A line joining the geographic center of a district and its name displayed on top of the right-hand column. So every time on the map you click on a district, this line appears. So you know exactly where it is located. I have already written code for [this](https://github.com/parbasu/covid19appcode/blob/main/javascript_canvas.ipynb) but it's glitchy and runs slow on Heroku. Notice that I used the [visdcc component](https://github.com/jimmybow/visdcc) to run JavaScript as part of Dash callbacks. 
 
+- Make the app faster. This requires cleaning and restructuring the code. 
+
 
 ## Important sources of COVID-19 data for Germany
 
