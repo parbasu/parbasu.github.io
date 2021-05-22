@@ -35,7 +35,7 @@ Things that remain to be done but I want to focus on other stuff for now:
 
 - *Select district* dropdown menu which takes HTML elements as label values. The [Dash dropdown component](https://dash.plotly.com/dash-core-components/dropdown) only allows string values as option. Suppose I want something like <span style = 'color: black;font-weight:900;'>Berlin</span> <small style = 'color: red;'>1,430</small>. Then this is not possible, but with JavaScript it is. 
 
-- A line joining the geographic center of a district and its name displayed on top of the right-hand column. So every time on the map you click on a district, this line appears. So you know exactly where it is located. I have already written code for [this](https://github.com/parbasu/covid19appcode/blob/main/javascript_canvas.ipynb) but it's glitchy and runs slow on Heroku. Notice that I used the [visdcc component](https://github.com/jimmybow/visdcc) to run JavaScript as part of Dash callbacks. 
+- A line joining the geographic center of a district and its name displayed on top of the right-hand column. So every time on the map you click on a district, this line appears. I have already written [code](https://github.com/parbasu/covid19appcode/blob/main/javascript_canvas.ipynb) for this but it's glitchy and runs slow on Heroku. Notice that I used the [visdcc component](https://github.com/jimmybow/visdcc) to run JavaScript as part of Dash callbacks. 
 
 - This unicode character ⭡ (up arrow) is not being rendered on some browsers. The fix is simply to use pure CSS (see [this](https://stackoverflow.com/questions/18816486/how-can-i-make-a-pointy-arrow-with-a-div-in-css)). But I need to restructure some code.
 
