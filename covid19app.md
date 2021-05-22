@@ -31,7 +31,7 @@ I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-l
 
 - My entire code for the app can be found [here](https://github.com/parbasu/covid19appcode/blob/main/app.py). The other data files, including custom CSS and JavaScript can be found [here](https://github.com/parbasu/covid19data). The code can be considerably shortened. But I don't want to at this point.
 
-Things I want to add but won't in the near future:
+Things that remain to be done but I won't do in the near future:
 
 - *Select district* dropdown menu which takes HTML elements as label values. The [Dash dropdown component](https://dash.plotly.com/dash-core-components/dropdown) only allows string values as option. Suppose I want something like <span style = 'color: black;font-weight:900;'>Berlin</span> <small style = 'color: red;'>1,430</small>. Then this is not possible, but with JavaScript it is. 
 
