@@ -6,5 +6,5 @@ The vertical moving tooltip is not available in Plotly, so I had to create my ow
 
 
 Issues that need to be fixed:
-- On clearing the dropdown, a nonsensical figure is still displayed. Putting the entire graph inside an HTML div and setting style = {'display' : 'none'} when nothing is selected is somehow not working.
+- On clearing the dropdown, a nonsensical figure is still displayed. Putting the entire graph inside an HTML div and setting <code> style = {'display' : 'none'} </code> when nothing is selected is somehow not working.
 - The figure takes time to load. It is noticeable. Make the app slightly faster.
