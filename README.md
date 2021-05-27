@@ -7,6 +7,8 @@ I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-l
 The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
 
 
+Plotly Dash is a really useful library. It allows you to create [beautiful looking tables](https://covid19basucrud.herokuapp.com/) just using Python. There's just one caveat: you need to at least have a basic understanding of HTML and CSS. 
+
 --- 
 
 # Mean, Median and Mode
