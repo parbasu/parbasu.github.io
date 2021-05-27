@@ -3,3 +3,8 @@
 The [table and figure](https://covid19basucrud.herokuapp.com/) were created using [Plotly Dash](https://plotly.com/dash/). See also my [COVID-19 Dasboard](https://covid19basu.herokuapp.com/). The data is taken from [Die Zeit](https://www.zeit.de/wissen/corona-karte-deutschland-aktuelle-zahlen-landkreise#woher-kommen-die-daten). I first clean it a bit, change it into a Pandas dataframe and then send it to a PostgreSQL database on Amazon RDS. This is automated using cron. My app then queries this database (well not really, because I load the entire table up-front *select * from table*).
 
 The vertical moving tooltip is not available in Plotly, so I had to create my own. Python code for app is [here](https://github.com/parbasu/covid19appcode/blob/main/data_table_app.py), Javascript [here](https://github.com/parbasu/covid19appcode/blob/main/custom_javascript_data_table.js) and CSS [here](https://github.com/parbasu/covid19appcode/blob/main/custom_styles_data_table.css).
+
+
+Issues that need to be fixed:
+- On clearing the dropdown, a nonsensical figure is still displayed. Put the entire graph inside an HTML div and setting 'display' : none when nothing is selected is somehow not working.
+- The figure takes time to load. It is noticeable. Make the app slightly faster.
