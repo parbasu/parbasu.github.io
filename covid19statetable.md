@@ -1,1 +1,1 @@
-## COVID-19 Dash DataTable for German stats
+## COVID-19 Dash DataTable for German states
