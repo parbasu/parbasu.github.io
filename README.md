@@ -8,13 +8,7 @@ The app has slow initial loading times because of this [reason](https://stackove
 
 <div style="width:500px;height:50px;border:2px solid #DB7093;text-align: center; animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;"> I am not updating the dashboard anymore. The number of new infections over the last week has fallen considerably and will continue to fall.</div>
+  opacity:.5"> I am not updating the dashboard anymore. The number of new infections over the last week has fallen considerably and will continue to fall.</div>
 <br>
 Plotly Dash is a really useful library. Not just figures, you can create simple nice looking [tables](https://covid19basucrud.herokuapp.com/) just using Python. Of course you can do all this simply using Excel, but Python allows for extremely high degree of customisability. There's just one caveat: you need to at least have a basic understanding of HTML and CSS. 
 
