@@ -7,7 +7,8 @@ I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-l
 The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
 
 
-<div style="width:500px;height:100px;border:1px solid #000;"> I am not updating the dashboard anymore. The number of new infections over last week have fallen considerably and will continue to fall.</div>
+<div style="width:50px;height:50px;border:1px solid #000; text-align: center "> I am not updating the dashboard anymore. The number of new infections over last week have fallen considerably and will continue to fall.</div>
+
 
 
 Plotly Dash is a really useful library. Not just figures, you can create simple nice looking [tables](https://covid19basucrud.herokuapp.com/) just using Python. Of course you can do all this simply using Excel, but Python allows for extremely high degree of customisability. There's just one caveat: you need to at least have a basic understanding of HTML and CSS. 
