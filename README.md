@@ -7,7 +7,7 @@ I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-l
 The app has slow initial loading times because of this [reason](https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load), so the problem does not lie with my code.
 
 
-<div style="width:50px;height:50px;border:1px solid #000; text-align: center "> I am not updating the dashboard anymore. The number of new infections over last week have fallen considerably and will continue to fall.</div>
+<div style="width:90px;height:90px;border:2px solid #DB7093;text-align: center;"> I am not updating the dashboard anymore. The number of new infections over last week have fallen considerably and will continue to fall.</div>
 
 
 
