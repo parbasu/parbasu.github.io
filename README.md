@@ -12,6 +12,10 @@ Plotly Dash is a really useful library. Not just figures, you can create simple 
 
 --- 
 
+[three.js experimetal page](ExperimentThreeJs.html)
+
+---
+
 # Mean, Median and Mode
 
 Most of us are familiar with the term *average*. So if I tell you that the average age of students in a statistics class at university is $19.25$ years, you know that
