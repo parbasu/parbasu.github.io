@@ -12,7 +12,7 @@ Plotly Dash is a really useful library. Not just figures, you can create simple 
 
 --- 
 
-[three.js experimetal page](https://www.parthivbasu.com/ThreeJs/index.html)
+[three.js experimetal page]()
 
 ---
 
