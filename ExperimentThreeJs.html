@@ -13,9 +13,13 @@
 	
 	<p> this is the experimental three.js page </p>
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"> 
+	<script type="module">
 
-	</script>
+  import * as THREE from 'https://cdn.skypack.dev/three@<version>';
+
+  import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+
+</script>
 
 </body>
 </html>
