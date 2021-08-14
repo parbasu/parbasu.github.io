@@ -18,6 +18,18 @@
   import * as THREE from 'https://cdn.skypack.dev/three@<version>';
 
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+	
+ if ( WEBGL.isWebGLAvailable() ) {
+
+	// Initiate function or other initializations here
+	animate();
+
+} else {
+
+	const warning = WEBGL.getWebGLErrorMessage();
+	document.getElementById( 'container' ).appendChild( warning );
+
+}
 
 </script>
 
