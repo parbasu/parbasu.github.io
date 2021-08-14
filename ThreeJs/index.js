@@ -28,63 +28,6 @@ const torus = new THREE.Mesh(geometry, material);
 
 scene.add(torus);
 
-// Lights
-const pointLight = new THREE.PointLight(0xffffff);
-pointLight.position.set(5, 5, 5);
-
-const ambientLight = new THREE.AmbientLight(0xffffff);
-scene.add(pointLight, ambientLight);
-
-// const lightHelper = new THREE.PointLightHelper(pointLight)
-// const gridHelper = new THREE.GridHelper( 200, 50 )
-// scene.add(lightHelper, gridHelper)
-
-// const controls = new OrbitControls(camera, renderer.domElement); // Listen to dom events on the mouse and update the camera pos accordingly
-
-function addStar() {
-  const geometry = new THREE.SphereGeometry(0.25, 24, 24);
-  const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
-  const star = new THREE.Mesh(geometry, material);
-
-  const [x, y, z] = Array(3)
-    .fill()
-    .map(() => THREE.MathUtils.randFloatSpread(100));
-
-  star.position.set(x, y, z);
-  scene.add(star);
-}
-// Arra of 250 values and then for each value calls the addStar function
-Array(250).fill().forEach(addStar);
-
-// changes bg
-const spaceTexture = new THREE.TextureLoader().load('space.jpg')
-scene.background = spaceTexture;
-
-// avatar
-
-const aniTexture = new THREE.TextureLoader().load('ani.png')
-const ani = new THREE.Mesh(
-  new THREE.BoxGeometry(6, 6, 6),
-  //map prop on the material as a texture
-  new THREE.MeshBasicMaterial({ map: aniTexture })
-);
-scene.add(ani);
-
-//MOOON
-const moonTexture = new THREE.TextureLoader().load('moon.jpg')
-const imageTexture = new THREE.TextureLoader().load('normal.jpg')
-const moon = new THREE.Mesh(
-  new THREE.SphereGeometry(3, 32, 32),
-  new THREE.MeshStandardMaterial({ map: moonTexture, normalMap: imageTexture })
-);
-scene.add(moon);
-// Repostionisng moon to further down of z axis as that is the direction of scroll
-moon.position.z = 30;
-moon.position.setX(-10);
-
-ani.position.z = -5;
-ani.position.x = 2;
-
 // scroll Animation
 
 function moveCamera() {
