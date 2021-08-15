@@ -16,6 +16,8 @@ Plotly Dash is a really useful library. Not just figures, you can create simple 
     font-size: 20px;
     font-weight: 400;
 ">PYTHON AND MACHINE LEARNING PROJECTS</a>
+<br>
+<small> I will add projects soon! </small>
 
 ---
 
