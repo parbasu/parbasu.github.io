@@ -12,7 +12,10 @@ Plotly Dash is a really useful library. Not just figures, you can create simple 
 
 --- 
 
-[PYTHON AND MACHINE LEARNING PROJECTS]()
+<a href="" style="
+    font-size: 20px;
+    font-weight: 400;
+">PYTHON AND MACHINE LEARNING PROJECTS</a>
 
 ---
 
