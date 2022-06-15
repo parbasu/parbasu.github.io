@@ -1,5 +1,11 @@
 [COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
 
+<a href="https://www.parthivbasu.com/index.html" style="
+    font-size: 20px;
+    font-weight: 400;
+">yello</a>
+
+
 Check out the COVID-19 Dashboard I built. It is best viewed on a desktop using Google Chrome. It is not properly adjusted for browser resizing.
 
 I used [Plotly Dash](https://plotly.com/dash/) and [Dash Leaflet](https://dash-leaflet.herokuapp.com/). The app was mostly written in Python. I also used a bit of JavaScript and CSS to get the exact look and functionality I wanted. This is because Plotly (understandably) offers limited  customisability and there are some features that are simply not available, so I had to create my own. For more details see this [page](covid19app.md).
