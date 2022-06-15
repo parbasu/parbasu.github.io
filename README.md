@@ -1,6 +1,6 @@
 [COVID-19 Dashboard For Germany](https://covid19basu.herokuapp.com/)
 
-<a href="https://www.parthivbasu.com/index.html" style="
+<a href="https://www.parthivbasu.com/index2.html" style="
     font-size: 20px;
     font-weight: 400;
 ">yello</a>
