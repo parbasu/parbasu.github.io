@@ -461,6 +461,7 @@ div.articleRightInner {
 	font-size: 0.875em;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	border-right: 1px solid black;
 }
 .article p {
 	line-height: inherit;
