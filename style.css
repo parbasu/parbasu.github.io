@@ -111,7 +111,7 @@ strong {
   color: white;
 }
 .Rtable-cell--medium {
-  background-color: white;
+  background-color: #EBEDEF;
   border-color: black;
 }
 
@@ -124,7 +124,7 @@ strong {
   color: white;
 }
 .Rtable-cell--head {
-  background-color: white;
+  background-color: #EBEDEF;
   border-color: black;
   color: white;
 }
