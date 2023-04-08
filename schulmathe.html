@@ -6,28 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
-  <style>
-          table {
-            border-collapse: collapse;
-            width: 100%;
-          }
-
-          td, th {
-            border: 1px solid black;
-            text-align: left;
-            padding: 8px;
-          }
-
-          tr:nth-child(even) {
-            background-color: #dddddd;
-          }
-
-          caption {
-          text-align:left;
-          color: purple;
-          font-weight: bold;
-          }
-</style>
 </head>
 <body>
 
@@ -115,6 +93,39 @@
         </table>
       </p>
     
-<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script>
+  function horzScrollbarDetect() {
+  
+  var $scrollable = $('.scrollable')
+  var $innerDiv = $('.scrollable > div');
+  
+  if ($innerDiv.outerWidth() < $innerDiv.get(0).scrollWidth) {
+    
+    $scrollable.addClass('is-scrollable');
+    console.log('Scrollbar, WOOT!')
+    
+  } else {
+    
+    $scrollable.removeClass('is-scrollable');
+    console.log('There is no scrollbar, only Zuul');
+    
+  }
+  
+}
+
+$(document).ready(function() {
+  
+  horzScrollbarDetect();
+  console.log('document. boom. ready.')
+  
+});
+
+$(window).resize(function() {
+  
+  horzScrollbarDetect();
+  console.log('window resized');
+  
+});
+</script>
 </body>
 </html>
