@@ -251,7 +251,7 @@ table th {
   white-space: nowrap;
 }
 table tbody tr:nth-child(odd) {
-  background: #f3f3f3;
+  background: white;
 }
 
 .scrollable {
