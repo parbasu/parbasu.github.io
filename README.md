@@ -1,5 +1,1 @@
-This is my website. I got the code for the website from
-
-1) https://css-tricks.com/accessible-simple-responsive-tables/
-2) https://codepen.io/joshlondon/pen/nBMpZj
-
+I just wanted to keep the domain name parthivbasu.com. That's why this website is still up.
